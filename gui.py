@@ -216,6 +216,7 @@ def closeEvent():
     print("Closing")
     settings.setValue("folders", folders)
     server.stop()
+    app.quit()
 
 if __name__ == '__main__':
     
@@ -229,7 +230,7 @@ if __name__ == '__main__':
     tray_icon.show()
 
     quit = QAction("Quit")
-    quit.triggered.connect(app.quit)
+    quit.triggered.connect(closeEvent)
     menu.addAction(quit)
     
     tray_icon.setContextMenu(menu)
