@@ -1,0 +1,130 @@
+QPushButton#addfolder {
+    background-color: #393E46;
+    color: #EEEEEE;
+    padding: 6px;
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: 300;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00ADB5;
+    max-width: 80px;
+}
+
+QPushButton#deleteButton {
+    background-color: #bb2f2f;
+    color: #EEEEEE;
+    padding: 2px;
+    font-size: 10px;
+    font-family: "Lato";
+    font-weight: 300;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+#scrollable_widget{
+    background-color: #222831;
+    border: none;
+}
+
+QScrollArea {
+    border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #777474;
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+#infoLayout {
+    background-color: #393E46;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: -50px;
+}
+
+QLabel#status{
+    font-size : 10px;
+    font-family: "Lato";
+    color: #EEEEEE;
+}
+
+QProgressBar {
+    border: 2px;
+    border-radius: 5px;
+    color:  #EEEEEE;
+    background-color: #393E46;
+}
+QProgressBar::chunk {
+    background: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 0,stop: 0 #393E46,stop: 1 #3A9397 );
+    border-radius: 5px;
+    min-height: 10px;
+    max-height: 10px;
+}
+
+QPushButton#InputButton1 {
+    background-color: #393E46;
+    color: #EEEEEE;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+QPushButton#InputButton2 {
+    background-color: #393E46;
+    color: #EEEEEE;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+QLabel{
+    font-family: "Lato";
+    font-size: 14px;
+    color: #EEEEEE;
+}
+
+QLineEdit{
+    font-family: "Lato";
+    font-size: 14px;
+    color: #EEEEEE;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #393E46;
+}
+
+QComboBox{
+    font-size: 14px;
+    padding: 5px;
+    color: #EEEEEE;
+    border-radius: 5px;
+    background-color: #393E46;
+    padding-left: 8px;
+}
+
+QComboBox::drop-down {
+    border: 0px;
+}
+
+#MainWindow{
+    background-color: #222831;
+}
+
+QLabel#pathLabel{
+    font-family: "Lato";
+    font-size: 11px;
+    color: #a5a3a3;
+}
