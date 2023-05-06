@@ -3,7 +3,7 @@ Simple WebDav server application, made to work with the Touchly app.
 Based in the [wsgidav](https://github.com/mar10/wsgidav/) library.
 
 ## Standalone
-Use the installer in the "releases" tab.
+Use the installer in the [releases](https://github.com/Touchly/Cast/releases/tag/Alpha) tab.
 
 ## Use with python
 Clone the repo:
